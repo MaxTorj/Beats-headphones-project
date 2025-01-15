@@ -1,0 +1,21 @@
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 35px;
+  border-radius: 100px;
+  line-height: 1;
+  transition: 0.4s;
+
+  &--theme--red {
+    background: $red;
+    color: #FFFFFF;
+  
+    &:hover {
+      border: 1px solid $red;
+      color: $red;
+      background: #F5F5F5;
+      transition: 0.4s;
+    }
+  }
+}

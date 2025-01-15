@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 35px;
+  font-family: "Alegreya Sans";
+}
+
+.menu__link {
+  text-decoration: none;
+}
+
+.phone-link {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.phone-logo {
+  width: 14px;
+  height: 14px;
+}
+
+.phone-number {
+  font-size: 18px;
+  text-decoration: none;
+}
