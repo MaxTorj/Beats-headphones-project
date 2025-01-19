@@ -6,6 +6,7 @@
   border-radius: 100px;
   line-height: 1;
   transition: 0.4s;
+  border: 1px solid $red;
 
   &--theme--red {
     background: $red;
@@ -15,6 +16,18 @@
       border: 1px solid $red;
       color: $red;
       background: #F5F5F5;
+      transition: 0.4s;
+    }
+  }
+
+  &--theme--transparent {
+    border: none;
+    background: none;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+      background: $red;
       transition: 0.4s;
     }
   }
