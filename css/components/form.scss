@@ -32,8 +32,20 @@
     border: 3px solid transparent;
     border-radius: 4px;
 
+    &--textarea {
+        height: 162px;
+        resize: none;
+        margin-bottom: 15px;
+    }
+
     &:focus {
         border-color: $red;
         outline: none;
     }
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
 }
