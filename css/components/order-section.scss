@@ -1,0 +1,12 @@
+.order-section {
+    position: relative;
+    background: #000;
+    color: #fff;
+}
+
+.order-section::before {
+    content: url("../../img/polygon-red.png");
+    position: absolute;
+    top: -3%;
+    right: 14%;
+}
